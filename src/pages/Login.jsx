@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Banner from "../assets/images/Banner2.jpg";
-import { IoIosWarning } from "react-icons/io";
+import Banner from "../assets/images/banner2.jpg"
 
 const Login = ({ usersState, setIsLogin, setShowUserName, setSaveId }) => {
   const [userName, setUserName] = useState("");
