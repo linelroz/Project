@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "iran";
+  src: url("./assets/fonts/IRANSansXFaNum-Regular.woff2");
+}
+@font-face {
+  font-family: "iran-me";
+  src: url("./assets/fonts/IRANSansXFaNum-Medium.woff2");
+}
+@font-face {
+  font-family: "iran-bo";
+  src: url("./assets/fonts/IRANSansXFaNum-Bold.woff2");
+}
+html {
+  /* background-color: #481e14; */
+  background-image: url("./assets/images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "iran";
+  box-sizing: border-box;
+  font-size: 62.5%;
+  direction: rtl;
+  position: relative;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
